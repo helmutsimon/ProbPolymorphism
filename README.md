@@ -44,6 +44,18 @@ Source code for "Quantifying Influences on Intragenomic Mutation Rate"
 **Requirements:** Variant and context counts produced by bayes\_analysis.py.  
 
 
+**File:** sample\_ensembl\_intergenic\_sites.py  
+**Type:** Python 3.5 script  
+**Purpose:** Analogous to count_intronic_sites.py, but records intergenic sites.  
+**Requirements:** Installation of PyCogent/ensembldb3 and Ensembl variation database.  
+
+
+**File:** sample\_ensembl\intergenic\_variants.py  
+**Type:** Python 3.5 script  
+**Purpose:** Analogous to sample_ensembl.py, but samples intergenic variants.  
+**Requirements:** Installation of PyCogent/ensembldb3, sqlalchemy and Ensembl variation database.  
+
+
 ## recombination folder
 
 **File:** sample\_ensembl\_for\_recombination.py  
